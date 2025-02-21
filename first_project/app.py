@@ -16,6 +16,10 @@ def set_custom_style():
             font-weight: bold;
         }
         .sub-title {
+            text-align: center;
+            color: #424242;
+            font-size: 1.5rem !important;
+            margin-bottom: 2rem;
             background: linear-gradient(120deg, #1E88E5, #00B0FF);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
