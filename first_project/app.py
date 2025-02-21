@@ -206,7 +206,7 @@ def main_app():
     if st.session_state.page == 'home':
         # Main title with icon
         st.markdown("<h1 class='main-title'>🌟 Deep Sweeper</h1>", unsafe_allow_html=True)
-        st.markdown("<h2 class='name-highlight'>Prepared by Syed Shoaib Sherazi</h2>", unsafe_allow_html=True)
+        st.markdown("<h2 class='sub-title'>Prepared by Syed Shoaib Sherazi</h2>", unsafe_allow_html=True)
         
         # Welcome message
         st.markdown("""
