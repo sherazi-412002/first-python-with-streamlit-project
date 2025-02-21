@@ -15,11 +15,15 @@ def set_custom_style():
             padding: 20px;
             font-weight: bold;
         }
-        .sub-title {
+        .name-highlight {
+            background: linear-gradient(120deg, #1E88E5, #00B0FF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: bold;
+            font-size: 1.8rem !important;
+            padding: 10px;
             text-align: center;
-            color: #424242;
-            font-size: 1.5rem !important;
-            margin-bottom: 2rem;
+            display: block;
         }
         .welcome-text {
             text-align: center;
@@ -198,7 +202,7 @@ def main_app():
     if st.session_state.page == 'home':
         # Main title with icon
         st.markdown("<h1 class='main-title'>🌟 Deep Sweeper</h1>", unsafe_allow_html=True)
-        st.markdown("<h2 class='sub-title'>Prepared by Syed Shoaib Sherazi</h2>", unsafe_allow_html=True)
+        st.markdown("<h2 class='name-highlight'>Prepared by Syed Shoaib Sherazi</h2>", unsafe_allow_html=True)
         
         # Welcome message
         st.markdown("""
