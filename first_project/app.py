@@ -32,7 +32,6 @@ def set_custom_style():
         .welcome-text {
             text-align: center;
             padding: 20px;
-            background-color: #f9f9f9;
             border-radius: 10px;
             margin: 2rem 0;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
