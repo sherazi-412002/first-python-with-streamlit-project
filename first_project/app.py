@@ -6,7 +6,7 @@ import time
 
 def set_custom_style():
     # Custom CSS for better styling
-    st.markdown("""
+       st.markdown("""
         <style>
         .main-title {
             text-align: center;
@@ -15,22 +15,19 @@ def set_custom_style():
             padding: 20px;
             font-weight: bold;
         }
-        .name-highlight {
-            background: linear-gradient(120deg, #1E88E5, #00B0FF);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            font-weight: bold;
-            font-size: 1.8rem !important;
-            padding: 10px;
+        .sub-title {
             text-align: center;
-            display: block;
+            color: #424242;
+            font-size: 1.5rem !important;
+            margin-bottom: 2rem;
         }
         .welcome-text {
             text-align: center;
             padding: 20px;
-            background-color: #f0f2f6;
+            background-color: #f9f9f9;
             border-radius: 10px;
             margin: 2rem 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
         .button-container {
             display: flex;
@@ -43,7 +40,7 @@ def set_custom_style():
             background-color: #ffffff;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             margin: 10px 0;
         }
         .highlight-text {
