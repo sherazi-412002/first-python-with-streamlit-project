@@ -16,10 +16,14 @@ def set_custom_style():
             font-weight: bold;
         }
         .sub-title {
+            background: linear-gradient(120deg, #1E88E5, #00B0FF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: bold;
+            font-size: 1.8rem !important;
+            padding: 10px;
             text-align: center;
-            color: #424242;
-            font-size: 1.5rem !important;
-            margin-bottom: 2rem;
+            display: block;
         }
         .welcome-text {
             text-align: center;
@@ -37,7 +41,6 @@ def set_custom_style():
             margin: 0 auto;
         }
         .feature-card {
-            background-color: #ffffff;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
